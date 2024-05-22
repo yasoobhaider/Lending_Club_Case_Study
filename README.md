@@ -1,6 +1,5 @@
-# Project Name
-> Outline a brief description of your project.
-
+**Lending Club Case Study**
+> This project is to analyze the factors responsible for financial risk in approving or denying a loan.
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -8,45 +7,37 @@
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
-
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- Following business problem we are trying to address here-
+  Loan accepted: If the company approves the loan, there are 3 possible scenarios described below:
+      Fully paid: Applicant has fully paid the loan (the principal and the interest rate)
+      Current: Applicant is in the process of paying the instalments, i.e. the tenure of the loan is not yet completed. These candidates are not       
+               labelled as 'defaulted'.
+      Charged-off: Applicant has not paid the instalments in due time for a long period of time, i.e. he/she has defaulted on the loan
+  The company wants to understand the driving factors (or driver variables) behind loan default, i.e. the variables which are strong indicators of   
+  default.  The company can utilise this knowledge for its portfolio and risk assessment. 
+- Data set utilized is the loan data from bank which consists of all the loans disbursed for a certain duration.
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Interest rate is driving factor for loan repayment.
+- Borrowers having grade E, F and G applied for large loan amount and as they paid for the same, so they can be considered as regular.
+- Loans related to credit card repayment or debt consolidation has loans which are large in numbers and higher probability for repayments.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+- Python - version 3.12.2
+- Numpy Library - version 1.26.4
+- Pandas library - version 2.2.2
+- Seaborn Library - version 0.13.2
+- Matplot Library - version 3.8.4
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
+- This project was inspired by upgrad program for analytics
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@yasoobhaider] - feel free to contact me!
 
-
-<!-- Optional -->
 <!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+<!-- This project is open source and available. -->
